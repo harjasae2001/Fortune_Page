@@ -4,10 +4,21 @@
   margin-bottom: 4.8rem;
   padding: 1.6rem 2.4rem;
   background-color: #222;
+  position: sticky;
+  top: 0;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
+}
+
+/* .a-logo:link,
+.a-logo:visited {
+} */
+
+.a-logo:hover,
+.a-logo:active {
+  box-shadow: 0rem 1.2rem 2.4rem rgba(0, 0, 0, 0.5);
 }
 
 .logo {
@@ -50,9 +61,10 @@
 .main-nav-link:hover,
 .main-nav-link:active {
   background-color: #ffd700;
-  color: #444;
+  color: #444444;
   padding: 0.8rem 1.6rem;
   border-radius: 2rem;
+  box-shadow: 0.9rem 1.8rem 4.8rem rgba(0, 0, 0, 0.5);
 }
 
 /* Main Heading */
@@ -103,6 +115,7 @@
   padding: 1rem 4rem;
   border-radius: 2rem;
   color: #222;
+  box-shadow: 0 1.8rem 3.6rem rgba(0, 0, 0, 0.4);
 }
 
 /* About US */
@@ -127,6 +140,7 @@
   column-gap: 2.4rem;
 }
 .About-Us-para {
+  padding: 2.4rem;
   font-size: 1.8rem;
   color: #ffd700;
 }
@@ -136,7 +150,7 @@
   margin: 0 0 4.8rem 0;
   padding: 3.2rem 0;
 }
-.proj-heading {
+.proc-heading {
   color: #ccc;
   font-size: 4.4rem;
   margin-bottom: 4rem;
@@ -151,6 +165,17 @@
   list-style-type: none;
   padding: 1.875rem;
 }
+
+.proc-card {
+  background-color: #444;
+  /* width: 20rem; */
+  margin-right: 1.6rem;
+  padding: 7.2rem 1.6rem;
+  border-radius: 1.6rem;
+}
+.proc-card:hover {
+  box-shadow: 0 1.8rem 2.4rem rgba(0, 0, 0, 0.4);
+}
 .proc-list {
   /* background-color: red; */
   display: flex;
@@ -163,6 +188,14 @@
   font-size: 7.2rem;
   color: #e8bc26;
   margin-bottom: 2rem;
+}
+
+.icon:hover {
+  /* background-color: #222; */
+  color: #eee;
+  border-radius: 50%;
+  box-shadow: 0 1.8rem 2.4rem rgba(0, 0, 0, 0.25);
+  transition: all 0.3sec;
 }
 .proc-p {
   text-align: center;
