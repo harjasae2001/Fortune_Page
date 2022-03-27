@@ -21,3 +21,5 @@ var x = setInterval(function () {
   document.querySelector(".demo").innerHTML =
     days + " d : " + hours + " h : " + minutes + " m : " + seconds + " s";
 }, 1000);
+
+const nav = document.querySelector(".nav-list");
