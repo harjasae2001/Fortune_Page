@@ -1,6 +1,6 @@
 "use strict";
 
-var dest = new Date("April 30, 2022 10:00:00").getTime();
+var dest = new Date("April 22, 2022 10:00:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
@@ -22,4 +22,7 @@ var x = setInterval(function () {
     days + " d : " + hours + " h : " + minutes + " m : " + seconds + " s";
 }, 1000);
 
-const nav = document.querySelector(".nav-list");
+document.querySelector(".main-nav").addEventListener("click", function (e) {
+  e.preventDefault();
+  console.log(e.target);
+});

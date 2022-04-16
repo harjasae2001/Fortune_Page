@@ -2,8 +2,8 @@
 /* Navbar */
 .main-nav {
   /* margin-bottom: 4.8rem; */
-  padding: 1.6rem 2.4rem;
-  background-color: #222;
+  padding: 1rem 2rem;
+  background-color: #111;
   position: sticky;
   top: 0;
   z-index: 99999;
@@ -18,17 +18,12 @@
 .a-logo:visited {
 } */
 
-.a-logo:hover,
-.a-logo:active {
-  border-radius: 50%;
-  box-shadow: 0rem 1.2rem 2.4rem rgba(0, 0, 0, 0.549);
-}
-
 .logo {
   /* margin-left: 20px; */
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
+  border: 1px solid white;
   /* background-color: red; */
 
   /* stroke: #111; */
@@ -57,7 +52,7 @@
   padding: 0.8rem 1.6rem;
   /* border-radius: 1.6rem; */
   font-weight: 600;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   transition: all 0.3sec;
 }
 
@@ -74,6 +69,9 @@
 .main-header {
   /* margin-bottom: 4.8rem; */
   /* height: 100vh; */
+  background-image: url(img/vector-candlestick-patterns-is-a-style-of-financial-chart.png);
+  filter: url(img/vector-candlestick-patterns-is-a-style-of-financial-chart.png);
+  /* filter: opacity(50%); */
   padding: 7rem 0;
   /* background-color: green; */
 }
@@ -168,6 +166,7 @@
 .about-us-grid {
   display: grid;
   grid-template-columns: 4fr 1fr;
+  gap: 4rem;
   /* column-gap: 2.4rem; */
 }
 .About-Us-para {
@@ -179,8 +178,8 @@
 
 .About-Us-img {
   padding-right: 2.4rem;
-  width: 30rem;
-  height: 16rem;
+  width: 20rem;
+  height: auto;
 }
 
 /*Projections*/
@@ -212,7 +211,10 @@
   border-radius: 1.6rem;
 }
 .proc-card:hover {
+  background-color: #fff;
+  /* color: #000; */
   box-shadow: 0 1.8rem 2.4rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 .proc-list {
   /* background-color: red; */
@@ -232,17 +234,19 @@
 
 .icon:hover {
   /* background-color: #222; */
-  color: #eee;
+  color: #000;
   /* width: 8rem; */
   /* height: 8rem; */
-  border-radius: 45%;
+  border-radius: 50%;
+  border: 0.5px solid #000;
   box-shadow: 0 1.8rem 2.4rem rgba(0, 0, 0, 0.25);
   transition: all 0.3sec;
 }
 .proc-p {
   text-align: center;
-  font-size: 2rem;
-  color: #eee;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #000;
 }
 
 /*Events*/
