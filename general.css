@@ -41,7 +41,7 @@ body {
 
 .grid {
   display: grid;
-  column-gap: 6.4rem;
+  /* column-gap: 6.rem; */
   row-gap: 8.8rem;
 
   margin-bottom: 7.2rem;

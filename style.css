@@ -316,13 +316,13 @@
 
 .step-description {
   color: #eee;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.4;
 }
 
 .step-img-box {
   display: flex;
-  align-items: stretch;
+  /* align-items: stretch; */
   justify-content: center;
   position: relative;
   /* transform: ; */
